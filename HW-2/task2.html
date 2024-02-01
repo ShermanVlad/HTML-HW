@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vlad`s-HW-part-2</title>
+
+    <style>
+        body{
+            margin: 0;
+            background-color: darkgray;
+        }
+
+        .main{
+            height: 600px;
+            background-color: black;
+            border-radius: 50px;
+            margin: 20px 20px 0 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .block{
+            background-color: whitesmoke;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .block:hover{
+            background-color: red;
+            border-radius: 50px;
+            transition: 3s;
+            transform: scale(1.5);
+
+        }
+
+        #X:hover{
+            background-color: green;
+            border-radius: 30px;
+            transition: 2s;
+            transform: scale(1.5);
+        }
+
+        #win:hover{
+            /*тут хочу додати рядок, щоб текст "find x" змінився на "you won", але не знаю як*/
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="main">
+
+    <div class="block">
+        <p>Find: X</p>
+    </div>
+    <div class="block">
+        <p>Find: X</p>
+
+    </div>
+    <div class="block" >
+        <p>Find: X</p>
+
+    </div>
+    <div class="block">
+        <p>Find: X</p>
+
+    </div>
+    <div class="block" id="X">
+        <p id="win">Find: X</p>
+
+    </div>
+    <div class="block">
+        <p>Find: X</p>
+
+    </div>
+</div>
+</body>
+</html>
