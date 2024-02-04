@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Additional-task-2</title>
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+          rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+        }
+
+        .main {
+            margin-top: 100px;
+            width: 1000px;
+            height: 600px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .box {
+            width: 490px;
+            height: 290px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        #first {
+            background-color: #699BF7;
+        }
+
+        #second {
+            background-color: #C7B9FF;
+        }
+
+        #third {
+            background-color: #FFC700;
+        }
+
+        #fourth {
+            background-color: #FF8577;
+        }
+
+        p {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .title {
+            font-size: 18px;
+            height: 20px;
+            margin: 0 40px;
+        }
+
+        .description {
+            font-size: 40px;
+            height: 100px;
+            margin: 0 40px;
+            font-weight: bold;
+        }
+
+        .blockWithRef {
+            width: 40%;
+            height: 60px;
+            background-color: black;
+            /*background-color: white;*/
+            border-radius: 10px;
+            margin-left: 40px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        a {
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="box"
+         id="first">
+        <div>
+            <p class="title">
+                Tutorial
+                video</p>
+            <p class="description">
+                Dev
+                Mode
+                tutorial</p>
+        </div>
+        <div class="blockWithRef">
+            <a href="#"
+               style="color: white">Watch
+                the
+                video</a>
+        </div>
+    </div>
+    <div class="box"
+         id="second">
+        <div>
+            <p class="title">
+                Blog
+                post</p>
+            <p class="description">
+                Making
+                Figma
+                better
+                for
+                developers</p>
+        </div>
+        <div class="blockWithRef">
+            <a href="#"
+               style="color: white">Go
+                to
+                the
+                book</a>
+        </div>
+
+    </div>
+    <div class="box"
+         id="third">
+
+        <div>
+            <p class="title">
+                Help
+                center</p>
+            <p class="description">
+                Guide
+                to
+                Dev
+                Mode</p>
+        </div>
+        <div class="blockWithRef">
+            <a href="#"
+               style="color: white">Read
+                the
+                article</a>
+        </div>
+    </div>
+    <div class="box"
+         id="fourth">
+        <div>
+            <p class="title">
+                Playground</p>
+            <p class="description">
+                Prototype
+                with
+                variables</p>
+        </div>
+        <div class="blockWithRef"
+             style="width: 50%;height: 60px;">
+            <a href="#"
+               style="color: white">Go
+                to
+                the
+                playground</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
