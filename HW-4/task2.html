@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Roboto', sans-serif;
+        }
+        main{
+            width: 30%;
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #login{
+            width: 100%;
+            height: 80%;
+            border: solid 0.5px darkgray;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        #login input{
+            width: 70%;
+            height: 10%;
+            border: solid 0.5px darkgray;
+            border-radius: 5px;
+            font-size: 2vh;
+            text-overflow: ellipsis;
+            padding: 0 2%;
+        }
+
+        #registr{
+            width: 100%;
+            height: 15%;
+            border: solid 0.5px darkgray;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        #login button{
+            width: 74%;
+            height: 10%;
+            background-color: blue;
+            border: solid #699BF7;
+            border-radius: 10px;
+            color: white;
+            font-size: 2vh;
+            font-weight: bold;
+        }
+        #login button:focus{
+            transform: scale(1.05);
+            transition: 0.25s;
+            background-color: #699BF7;
+        }
+        #login p{
+            font-size: 2vh;
+            font-weight: bold;
+            color: gray;
+        }
+        #login a{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-decoration: none;
+            color: #40408c;
+            font-size: 2vh;
+            font-weight: bold;
+        }
+        #registr{
+            display: flex;
+            font-size: 2vh;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div id="login">
+        <img src="/HW-4/task-2-images/Instagram-logo.png" alt="instagram-logo" style="width: 50%; color: black">
+        <input type="text" name="number/username/email" placeholder="Номер телефону, ім'я користувача або електронна адреса" required>
+        <input type="password" name="password" placeholder="Пароль" required>
+        <button type="button" name="logIn" value="logIn">Увійти</button>
+        <p>АБО</p>
+        <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26locale%3Duk_UA%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26response_type%3Dcode%252Cgranted_scopes%26scope%3Demail%26state%3D%257B%2522fbLoginKey%2522%253A%25221kclf5k1kof9rj1y5aw6n1vjlhn98n6xg8d9ervf1l0895l1v9g69t%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3Dab58b5b6-c5aa-4e6d-91c4-73362b6e8130%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%25221kclf5k1kof9rj1y5aw6n1vjlhn98n6xg8d9ervf1l0895l1v9g69t%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%23_%3D_&display=page&locale=uk_UA&pl_dbl=0"><img src="/HW-4/task-2-images/Facebook_logo.png" alt="facebook_logo" style="height: 3vh;: 3vh; margin-right: 0.5vw">Увійти через Facebook</a>
+        <a href="https://www.instagram.com/accounts/password/reset/" style="text-decoration: none; color: #40408c; font-size: 2vh;">Забули пароль?</a>
+
+    </div>
+    <div id="registr">
+        <p style="margin-right: 0.5vw">Не маєте облікового запису?</p>
+        <a href="https://www.instagram.com/accounts/emailsignup/" style="text-decoration: none; color: blue; font-weight: bold">Зареєструйтеся</a>
+
+    </div>
+
+</main>
+
+</body>
+</html>
