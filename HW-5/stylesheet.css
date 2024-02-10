@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgrey;
+}
+#main{
+    height: 51vh;
+    width: 81.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.box{
+    width: 21.2vw;
+    height: 50.1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    border: solid 0.26vw black;
+}
+.circle{
+    width: 5vw;
+    height: 10vh;
+    border: solid 0.26vw black;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: -5.08vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#main>.box>.circle>#telegram-logo{
+    width: 6vw;
+}
+#main>.box>.circle>#viber-logo{
+    width: 3.5vw;
+}
+#main>.box>.circle>#whatsapp-logo{
+    width: 3.5vw;
+}
+
+.title{
+    margin: 0;
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 4.07vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+span{
+    margin-top: 2%;
+    width: 80%;
+    height: 40%;
+    overflow: auto;
+}
+.description{
+    margin: 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 2.035vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#main>.box>.title{
+    color: white;
+    text-shadow: 0 -4px black, 4px 0 black ;
+}
+#main>.box>span>.description{
+    color: white;
+
+}
