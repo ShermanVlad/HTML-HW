@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    height: 100vh;
+    font-size: 10vh;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    color: gray;
+}
+header{
+    margin: 0;
+    width: 96%;
+    height: 26%;
+    background-color: darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+section{
+    margin: 0;
+    height: 66%;
+    width: 62%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgrey;
+
+}
+aside{
+    margin: 0;
+    height: 67%;
+    width: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgrey;
+}
+
