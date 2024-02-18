@@ -269,3 +269,65 @@ body{
     line-height: 2.73vh; /* 140% */
     letter-spacing: -0.03vw;
 }
+#page4{
+    background: #19191B;
+
+    margin: 0;
+    height: 84.86vh;
+    display: flex;
+    justify-content: center;
+}
+#page4>main{
+    margin-top: 7.51vh;
+    height: 51.95vh;
+    width: 83.33vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#page4>main>#page4-title{
+    margin: 0;
+    height: 6.83vh;
+    width: 45.07vw;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 5.66vh;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+#page4>main>#page4-content{
+    margin: 0;
+    width: 100%;
+    height: 29.4vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#page4>main>#page4-content>.page4-box{
+    margin: 0;
+    height: 100%;
+    width: 26.66vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.36vh;
+    background: #1E1E20;
+}
+#page4>main>#page4-content>.page4-box>img{
+    width: 23.33vw;
+    height: 24.7vh;
+    flex-shrink: 0;
+    border-radius: 1.17vh;
+}
+#contact-page{
+    margin: 0;
+    height: 49.41vh;
+    padding: 0 8.33vw 0 8.33vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #19191B;
+    border: solid 1px white;
+}
