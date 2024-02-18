@@ -2,13 +2,12 @@
         margin: 0;
         display: flex;
         flex-direction: column;
-        box-sizing: border-box;
+        background: #19191B;
     }
     #page1{
         margin: 0;
         height: 80.38vh;
         background: #19191B radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%);
-        /*z-index: 1;*/
     }
     #page1>#menu{
         margin: 0;
@@ -20,7 +19,7 @@
     }
     #page1>#menu>.logo{
         margin: 0;
-        width: 6%;
+        width: 9.16vw;
         height: 32%;
 
         display: flex;
@@ -28,7 +27,7 @@
         justify-content: space-between;
 
         color: #FFF;
-        font-family: Montserrat;
+        font-family: Montserrat, sans-serif;
         font-size: 2.73vh;
         font-style: normal;
         font-weight: 700;
@@ -50,7 +49,7 @@
 
         color: rgba(255, 255, 255, 0.70);
         text-align: right;
-        font-family: Lato;
+        font-family: Lato, sans-serif;
         font-size: 1.75vh  ;
         font-style: normal;
         font-weight: 400;
@@ -72,7 +71,7 @@
 
         color: #FFF;
         text-align: center;
-        font-family: Lato;
+        font-family: Lato, sans-serif;
         font-size: 1.56vh;
         font-style: normal;
         font-weight: 400;
@@ -98,7 +97,7 @@
         flex-direction: column;
     }
     #block-1>section>#title-block1{color: #FFF;
-        font-family: Lato;
+        font-family: Lato, sans-serif;
         font-size: 7.81vh;
         font-style: normal;
         font-weight: 400;
@@ -107,7 +106,7 @@
     #block-1>section>#desc-block1{margin-top: 2.34vh;
 
         color: rgba(255, 255, 255, 0.70);
-        font-family: Lato;
+        font-family: Lato, sans-serif;
         font-size: 2.05vh;
         font-style: normal;
         font-weight: 400;
@@ -126,7 +125,7 @@
         padding: 1.56vh 0 1.75vh 1.875vw ;
 
         color: #FFF;
-        font-family: Lato;
+        font-family: Lato, sans-serif;
         font-size: 1.95vh;
         font-style: normal;
         font-weight: 700;
@@ -147,9 +146,6 @@
         align-items: center;
         justify-content: center;
         height: 100vh;
-
-        /*position: relative;*/
-        /*top: -19.62vh;*/
     }
 #page2-text{
     margin: 14.74vh 0 0 0;
@@ -158,12 +154,11 @@
     display: flex;
     align-items: start;
     justify-content: space-between;
-    /*z-index: 2;*/
 }
 #page2>#page2-text>#page2-title{margin: 0;
 
     color: #FFF;
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     font-size: 5.85vh;
     font-style: normal;
     font-weight: 400;
@@ -173,7 +168,7 @@
     margin: 0;
 
     color: rgba(255, 255, 255, 0.70);
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     font-size: 2.05vh;
     font-style: normal;
     font-weight: 400;
@@ -195,10 +190,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*justify-content: center;*/
-
-    /*position: relative;*/
-    /*top: -19.62vh;*/
 }
 #page3>span{
     margin: 13.37vh 0 0 0;
@@ -206,7 +197,7 @@
 
     color: #FFF;
     text-align: center;
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     font-size: 5.85vh;
     font-style: normal;
     font-weight: 400;
@@ -214,12 +205,10 @@
 }
 #page3>main{
     margin: 9.57vh 0 0 0;
-    /*width: 77.77vh;*/
     height: 51.56vh;
     width: 80vw;
 
     display: flex;
-    /*flex-direction: row;*/
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
@@ -251,7 +240,7 @@
     margin: 0;
     color: #FFF;
     text-align: center;
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     font-size: 2.73vh;
     font-style: normal;
     font-weight: 600;
@@ -262,7 +251,7 @@
     margin: 0;
     color: rgba(255, 255, 255, 0.70);
     text-align: center;
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     font-size: 1.95vh;
     font-style: normal;
     font-weight: 400;
@@ -290,9 +279,9 @@
 #page4>main>#page4-title{
     margin: 0;
     height: 6.83vh;
-    width: 45.07vw;
+    /*width: 45.07vw;*/
     color: #FFF;
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     font-size: 5.66vh;
     font-style: normal;
     font-weight: 800;
@@ -337,7 +326,7 @@
      height: 14.06vh;
      width: 57.36vw;
      color: #FFF;
-     font-family: Lato;
+     font-family: Lato, sans-serif;
      font-size: 5.85vh;
      font-style: normal;
      font-weight: 400;
@@ -361,7 +350,7 @@
         margin: 0;
         color: #FFF;
         text-align: center;
-        font-family: Lato;
+        font-family: Lato, sans-serif;
         font-size: 2.05vh;
         font-style: normal;
         font-weight: 700;
@@ -376,7 +365,6 @@
         align-items: start;
         justify-content: center;
         background-color: #19191B;
-        /*border: solid 1px white;*/
     }
     footer>#footer-content{
         margin: 0;
@@ -389,13 +377,14 @@
     footer>#footer-content>.footer-logo{
         margin: 0;
         height: 3.9vh;
+        width: 9.16vw;
 
         display: flex;
         align-items: center;
         justify-content: space-between;
 
         color: #FFF;
-        font-family: Montserrat;
+        font-family: Montserrat, sans-serif;
         font-size: 2.73vh;
         font-style: normal;
         font-weight: 700;
@@ -416,7 +405,7 @@
     footer>#footer-content>#year{
         color: rgba(255, 255, 255, 0.70);
         text-align: right;
-        font-family: Lato;
+        font-family: Lato, sans-serif;
         font-size: 1.56vh;
         font-style: normal;
         font-weight: 400;
